@@ -1,0 +1,73 @@
+/**{
+background-image: url('sky.jpg');
+}
+*/
+.Green{
+	float: left;
+	overflow: hidden;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: white;
+	border: 10px white solid
+}
+body{
+	background-image: url(images/sky.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.red{
+	background-color: #A8F0F0;
+	float: right;
+	width: 100%;
+	border-bottom: 10px white solid;
+}
+.red h2{
+	font-size: 14pt;
+}
+.friends{
+	padding: 5px;
+	float: left;
+	width: 15%;
+	background-color: #E8FBFB;
+	border: 4px #C2E9E9 solid;
+}
+
+.blue_one{
+	background: #E8FBFB;
+	border: 5px blue solid;
+	padding: 10px;
+	width: 80%;
+	float: right;
+	background-color: #E8FBFB;
+	border: 4px #C2E9E9 solid;
+}
+.blue_one img{
+	float: right;
+	width: 130px;
+	height: 130px;
+}
+.blue_two{
+	width: 80%;
+	float: right;
+	overflow: hidden;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #E8FBFB;
+	border: 4px #C2E9E9 solid;
+}
+.blue_two img{
+	float: right;
+	width: 170px;
+	height: 150px;
+}
+span.purple{
+	border-bottom:2px purple dashed;
+}
+p:hover,a:hover,h2:hover,h1:hover,img:hover{
+	background-color: yellow;
+}
+img:hover{
+transform: scale(1.1);
+transition: all 1s;	
+}
